@@ -12,6 +12,20 @@
   margin-top: 15px;
 }
 
+.footer-wrapper {
+  background-color: #282c34;
+  display: flex;
+}
+
+.footer-wrapper > img {
+  height: 90px;
+}
+
+.footer-title {
+  color: aliceblue;
+  margin-top: 15px;
+}
+
 .navigation {
   display: flex;
   margin-left: auto;

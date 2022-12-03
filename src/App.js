@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Help from './pages/Help';
 import Library from './pages/Library';
 import Review from './pages/Review';
+import Footer from './components/Footer';
 
 function App() {
   const [menu, setMenu] = useState(1);
@@ -16,13 +17,13 @@ function App() {
     else if(menu === 3) {return <Help/>}
     else if(menu === 4) {return <Library/>}
     else if(menu === 5) {return <Review/>}
-    else if(menu === 6) {return <Feature />}
   }
 
   return (
     <div className="App">
       <Header onClick={setMenu} />
       {content()}
+      <Footer/>
     </div>
   );
 }
