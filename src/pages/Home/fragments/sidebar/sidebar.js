@@ -11,7 +11,7 @@ function Sidebar(prop) {
   return(
     <div>
       <sidebar className='sidebar-wrapper'>
-        <h1 className='sidebar-title' >Ini Sidebar</h1>
+        <h1 className='sidebar-title' >Sidebar</h1>
         <nav className='navigation'>{navigation()}</nav>
       </sidebar>
     </div>

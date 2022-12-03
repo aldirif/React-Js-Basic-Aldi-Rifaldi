@@ -7,7 +7,7 @@ function Footer(prop) {
     <div>
       <footer className='footer-wrapper'>
         <img src={logo} alt="logo" />
-        <h1 className='footer-title' >Ini Footer</h1>
+        <h1 className='footer-title' >Footer</h1>
       </footer>
     </div>
   );
