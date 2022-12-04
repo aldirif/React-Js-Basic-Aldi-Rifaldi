@@ -2,7 +2,7 @@ import logo from '../logo.svg';
 import './styles.css';
 
 function Header(prop) {
-  const menu = ["Home", "Feature", "Help", "Library", "Review"];
+  const menu = ["Home", "Feature", "Help"];
 
   const navigation = () => {
     return menu.map((item, idx) => {
