@@ -1,15 +1,8 @@
-import logo from '../logo.svg';
-import './styles.css';
-
-function Footer(prop) {
-
+function Footer(){
   return(
-    <div>
-      <footer className='footer-wrapper'>
-        <img src={logo} alt="logo" />
-        <h1 className='footer-title' >Footer</h1>
-      </footer>
-    </div>
+      <div className='footer-style'>
+          <h5>&copy; ALDI RIFALDI. ALL RIGHTS RESERVED</h5>
+      </div>
   );
 }
 

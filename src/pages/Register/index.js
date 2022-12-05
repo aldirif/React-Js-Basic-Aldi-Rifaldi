@@ -1,8 +1,8 @@
 import Content from './fragments/content';
 import './styles.css';
 
-function Feature() {
-  let data = "ini adalah isi feature";
+function Register() {
+  let data = "Register";
 
   return (
     <div>
@@ -13,4 +13,4 @@ function Feature() {
   );
 }
 
-export default Feature;
+export default Register;

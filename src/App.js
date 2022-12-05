@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import './App.css';
-import Feature from './pages/Feature';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Apps from './pages/Product/App';
+import Login from './pages/Login';
+import Register from './pages/Register';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
 
   const content = () => {
     if (menu === 1) {return <Home/>}
-    else if(menu === 2) {return <Feature />}
-    else if(menu === 3) {return <Apps/>}
+    else if(menu === 2) {return <Apps/>}
+    else if(menu === 3) {return <Login />}
+    else if(menu === 4) {return <Register />}
   }
 
   return (
