@@ -1,20 +1,8 @@
 import './styles.css';
 
-function Sidebar(prop) {
-  const menu = ["Feature"];
-
-  const navigation = () => {
-    return menu.map((item, idx) => {
-      return <button onClick={() => prop.onClick(idx+1)} >{item}</button>
-    }) 
-  }
+function Sidebar() {
   return(
-    <div>
-      <sidebar className='sidebar-wrapper'>
-        <h1 className='sidebar-title' >Sidebar</h1>
-        <nav className='navigation'>{navigation()}</nav>
-      </sidebar>
-    </div>
+    <h1 className="sidebar-wrapper ">Ini Sidebar</h1>
   );
 }
 

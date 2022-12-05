@@ -3,7 +3,7 @@ import './App.css';
 import Feature from './pages/Feature';
 import Header from './components/Header';
 import Home from './pages/Home';
-import Help from './pages/Help';
+import Apps from './pages/Product/App';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   const content = () => {
     if (menu === 1) {return <Home/>}
     else if(menu === 2) {return <Feature />}
-    else if(menu === 3) {return <Help/>}
+    else if(menu === 3) {return <Apps/>}
   }
 
   return (
