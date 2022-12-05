@@ -1,5 +1,6 @@
 .register-container {
   display: grid;
+  gap: 10px;
   height: auto;
   width: auto;
 }
