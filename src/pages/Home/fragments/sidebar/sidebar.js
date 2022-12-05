@@ -2,7 +2,7 @@ import './styles.css';
 
 function Sidebar() {
   return(
-    <h1 className="sidebar-wrapper ">Sidebar</h1>
+    <h2 className="sidebar-wrapper ">Sidebar</h2>
   );
 }
 

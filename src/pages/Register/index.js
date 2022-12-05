@@ -6,7 +6,7 @@ function Register() {
 
   return (
     <div>
-      <section className='content-container'>
+      <section className='register-container'>
         <Content data={data} />
       </section>
     </div>

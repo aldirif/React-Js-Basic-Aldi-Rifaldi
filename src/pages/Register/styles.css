@@ -1,7 +1,5 @@
-.content-container {
+.register-container {
   display: grid;
-  gap: 10px;
-  grid-template-columns: 5fr 2fr;
   height: auto;
-  width: 100vw;
+  width: auto;
 }

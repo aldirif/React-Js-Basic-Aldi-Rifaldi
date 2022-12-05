@@ -4,7 +4,7 @@ function Content (prop) {
   
   return(
     <section>
-      <h1 className='content-wrapper'>Konten</h1>
+      <h2 className='content-wrapper'>Shopping</h2>
       <p>{prop.data}</p>
     </section>
   );

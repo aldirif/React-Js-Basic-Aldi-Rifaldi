@@ -3,7 +3,7 @@ import './styles.css';
 function Content (prop) {
   
   return(
-    <div className='register-wrapper'>
+    <div className='login-wrapper'>
       <h2>{prop.data}</h2>
       <form>
         <label for="username">Username:</label><br></br>
